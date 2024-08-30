@@ -1,0 +1,25 @@
+{
+  "name": "trons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "build": {
+    "appId": "com.example.myapp",
+    "productName": "My Electron App",
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "electron": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"electron .\" \"cd proton && npm start\""
+  },
+  "author": "Ayush",
+  "license": "ISC",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  }
+}
