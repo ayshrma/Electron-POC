@@ -100,7 +100,7 @@ const Screenchange = () => {
       console.log('Window has gained focus');
       alert("Screen is change is track")
       // Handle the window gaining focus
-    };
+    }; 
 
     const handleBlur = () => {
       console.log('Window has lost focus');
